@@ -34,7 +34,7 @@ class CelebDataset(Dataset):
             self.attr2idx[attr] = i
             self.idx2attr[i] = attr
 
-        self.selected_attrs = ['Black_Hair', 'Blond_Hair', 'Brown_Hair', 'Male', 'Young']
+        self.selected_attrs = ['Black_Hair', 'Blond_Hair', 'Brown_Hair', 'Gray_Hair', 'Male', 'Young', 'Smiling', 'Eyeglasses']
         self.train_filenames = []
         self.train_labels = []
         self.test_filenames = []
